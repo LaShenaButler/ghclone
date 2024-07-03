@@ -1,85 +1,172 @@
 <!DOCTYPE html>
 
-    <html>
+<html>
 
-       	<head>
+<head>
 
-	    	<title>Sign in to GitHub/Student</title>
+    <style>
 
-        </head>  
+        body {image-align:center; text-align:center;}
 
-	        <style>
-		    
-			body {image-align:center; text-align:center;} 
-				 
-	        
-			</style>
-	
-	
-	        <body>
+        main{
+            /* center the main element */
+            margin:auto;
 
-		<a href="https://github.com"><img src="GitHub-Symbol.png" 
-		alt="https://github.com/"
-		style="width:85px;height:50px;"></a><br>
+            /* add width so that margin auto works */
+            width: 400px;
+            
+            /* temporary, add background color so i can see*/
+            background-color: green;
 
-		<h1 style="font-family:">Sign in to GitHub</h1>
+            /* temporary, add height so i can see*/
+            height: 500px;
+        }
+        img{
+            /* temporary, add background color so i can see */
+            
+            background-color: pink;
 
-		<form action="/action_page.php">
-  	                   <fieldset>
+            /* temporary, add height so i can see*/
+            height: 50px;
+            width: 85px;}
+        h1{
+            /* temporary, add background color so i can see */
+            
+            background-color: blue;
+            /* center the h1 element */
 
-                        <label for="Uname">User name or email address</label><br><br>
+            /* temporary, add font size so i can see*/
+            font-size: 20px;
+        }
+        form{
+            /* temporary, add background color so i can see */
+            
+            background-color: yellow;
 
-                           <input type="text" id="fname" name="fname" value=""><br><br>
+            /* temporary, add height so i can see*/
+            height: 100px;
 
-                                 <label for="Password">password <a href="#">forgot password?</a></label><br><br>
+            /* add bubble effect */
+            display: block;   
+        }
+        input{
+           /* I want rounded border */
+           border-radius: 12px;
 
-                                           <input type="text" id="lname" name="lname" value=""><br><br>
+            
+            background-color: white;
 
-	                    <input type="button" class="button" value="Sign In">
-							</fieldset><br><br>
-
-                                 <fieldset>
-                                        <a href="#">Sign in with a passkey</a></label>
-                                                <p>New to GitHub?<a href="#">   create an account</a></p>
-
-
-                            <footer>
-	
-		                          <div class="links">
-		
-			<a href="#">Terms</a>
-			<a href="#">Privacy</a>
-			<a href="#">Docs</a>
-			<a href="#">Contact GitHub</a>
-			<a href="#">Support</a>
-			<a href="#">Manage cookies</a>
-			<a href="#">Do not share my personal information</a>
-			</div>
-			</footer>
-
-		
-	
-  
-
-
-
-	                    </form> 
-
-                     </footer>
- 		
-	     
-			
-		
-			
-					</body> 
-		 
-		 
+            /* temporary, add height so i can see*/
+            height: 30px;
+            /* temporary, add width so i can see*/
+            width: 300px;
+        }
+        label{
+            
+            /* temporary, add alignment so i can see*/
+            text-align: left;
+        }
 
 
+        section{
+            /* temporary, add background color so i can see */
+            
+            background-color: orange;
+
+            /* temporary, add height so i can see*/
+            height: 100px;
+        }
+        footer{
+            /* center the main element */
+            margin:auto;
+
+            /* add width so that margin auto works */
+            width: 800px;
+            
+            /* temporary, add background color so i can see*/
+            background-color: red;
+
+            /* temporary, add height so i can see*/
+            height: 30px;
+
+            /* add 5 breaks at the end of main */
+            display: block;   
+
+
+            
+        }
+
+    </style>
+</head>
 
 
 
+<body> 
+
+
+    <main>
+
+        <a href="https://github.com"><img src="GitHub-Symbol.png" 
+            alt="https://github.com/"
+            style="width:85px;height:50px;"></a><br><br>
+
+        <h1>Sign in to GitHub</h1><br><br>
+
+        <form action="/action_page.php">
+
+        
+        
+        <label for="Uname">User name or email address</label><br><br">
+            
+    </form>
+        <input type="text" id="fname" name="fname" value=""><br><br>
+
+
+        <label for="Password">Password <a href="#">forgot password?</a></label><br><br></form>
+        <input border-radius="10px" type="text" id="lname" name="lname" value=""><br><br>
 
 
 
-    </html>
+        <input background-color="green" type="button" class="button" value="Sign In">
+
+            
+        
+        <br><br>
+
+
+            
+        <section>
+
+            <a href="#">Sign in with a passkey</a></label>
+
+            <p>New to GitHub?<a href="#">   create an account</a></p>
+
+        </section>
+
+    </main>
+
+    <br><br><br><br><br>
+
+
+    <footer>
+
+        <div class="links"> 
+            <a href="#">Terms</a>
+            <a href="#">Privacy</a>
+            <a href="#">Docs</a>
+            <a href="#">Contact GitHub</a>
+            <a href="#">Support</a>
+            <a href="#">Manage cookies</a>
+            <a href="#">Do not share my personal information</a> 
+        </div>
+    </footer>
+
+        
+
+
+
+</body>   
+
+
+
+</html>

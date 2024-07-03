@@ -5,12 +5,15 @@
 <head>
 
     <style>
+
+        body {image-align:center; text-align:center;}
+
         main{
             /* center the main element */
             margin:auto;
 
             /* add width so that margin auto works */
-            width: 300px;
+            width: 400px;
             
             /* temporary, add background color so i can see*/
             background-color: green;
@@ -25,12 +28,15 @@
 
             /* temporary, add height so i can see*/
             height: 50px;
-            width: 50px;}
+            width: 85px;}
         h1{
             /* temporary, add background color so i can see */
             
             background-color: blue;
             /* center the h1 element */
+
+            /* temporary, add font size so i can see*/
+            font-size: 20px;
         }
         form{
             /* temporary, add background color so i can see */
@@ -40,7 +46,28 @@
             /* temporary, add height so i can see*/
             height: 100px;
 
+            /* add bubble effect */
+            display: block;   
         }
+        input{
+           /* I want rounded border */
+           border-radius: 12px;
+
+            
+            background-color: white;
+
+            /* temporary, add height so i can see*/
+            height: 30px;
+            /* temporary, add width so i can see*/
+            width: 300px;
+        }
+        label{
+            
+            /* temporary, add alignment so i can see*/
+            text-align: left;
+        }
+
+
         section{
             /* temporary, add background color so i can see */
             
@@ -54,13 +81,18 @@
             margin:auto;
 
             /* add width so that margin auto works */
-            width: 500px;
+            width: 800px;
             
             /* temporary, add background color so i can see*/
             background-color: red;
 
             /* temporary, add height so i can see*/
-            height: 100px;
+            height: 30px;
+
+            /* add 5 breaks at the end of main */
+            display: block;   
+
+
             
         }
 
@@ -74,31 +106,60 @@
 
     <main>
 
-        <img src="GitHub-Symbol.png" alt="https://github.com/">
+        <a href="https://github.com"><img src="GitHub-Symbol.png" 
+            alt="https://github.com/"
+            style="width:85px;height:50px;"></a><br><br>
 
-        <h1>Sign in to GitHub</h1>
+        <h1>Sign in to GitHub</h1><br><br>
 
         <form action="/action_page.php">
+
         
-        <label for="Uname">User name or email address</label><br><br"></form>
+        
+        <label for="Uname">User name or email address</label><br><br">
+            
+    </form>
         <input type="text" id="fname" name="fname" value=""><br><br>
 
 
-        <label for="Password">password <a href="#">forgot password?</a></label><br><br></form>
-        <input type="text" id="lname" name="lname" value=""><br><br>
+        <label for="Password">Password <a href="#">forgot password?</a></label><br><br></form>
+        <input border-radius="10px" type="text" id="lname" name="lname" value=""><br><br>
 
 
 
-        <input type="button" class="button" value="Sign In"><br><br>
+        <input background-color="green" type="button" class="button" value="Sign In">
+
+            
+        
+        <br><br>
 
 
             
         <section>
 
             <a href="#">Sign in with a passkey</a></label>
+
+            <p>New to GitHub?<a href="#">   create an account</a></p>
+
         </section>
+
     </main>
-    <footer></footer>
+
+    <br><br><br><br><br>
+
+
+    <footer>
+
+        <div class="links"> 
+            <a href="#">Terms</a>
+            <a href="#">Privacy</a>
+            <a href="#">Docs</a>
+            <a href="#">Contact GitHub</a>
+            <a href="#">Support</a>
+            <a href="#">Manage cookies</a>
+            <a href="#">Do not share my personal information</a> 
+        </div>
+    </footer>
 
         
 
