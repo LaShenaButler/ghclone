@@ -6,8 +6,6 @@
 
     <style>
 
-        body {image-align:center; text-align:center; }
-
         main{
             /* center the main element */
             margin:auto;
@@ -20,13 +18,17 @@
             height: 500px;
         }
         img{
-            
+            /* add centering to image */
+
+            image-alignment: center;
 
             /* temporary, add height so i can see*/
             height: 50px;
             width: 85px;}
         h1{
-            
+            /* add text alignment so i can see */
+
+            text-alignment: center;
 
             /* temporary, add font size so i can see*/
             font-size: 20px;
@@ -37,22 +39,31 @@
 			/* add a border */
 			border: 2px solid black;
 
+            /* add height to the border */
+
+            border-height: 50px;
+
             /* temporary, add height so i can see*/
-            height: 100px;
+            height: 200px;
 			
         }
 
         input{
            /* I want rounded border */
-           border-radius: 12px;
+           border-radius: 10px;
 
-            
+
+            /* add color to input */ 
             background-color: white;
 
             /* temporary, add height so i can see*/
             height: 30px;
             /* temporary, add width so i can see*/
             width: 300px;
+
+            /* add color to button */
+
+            background-color: green;
         }
 
         
@@ -109,9 +120,10 @@
 
         
         
-        <label for="Uname">User name or email address</label><br><br">
+        <label for="Uname">Username or email address</label><br><br"><br>
             
     </form>
+
         <input type="text" id="fname" name="fname" value=""><br><br>
 
 
@@ -119,8 +131,7 @@
         <input border-radius="10px" type="text" id="lname" name="lname" value=""><br><br>
 
 
-
-        <input background-color="green" type="button" class="button" value="Sign In">
+        <input style="background-color: green;" type="button" class="button" value="Sign In">
 
             
         
