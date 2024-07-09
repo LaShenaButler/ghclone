@@ -6,6 +6,8 @@
 
     <style>
 
+        body {text-align:center;}
+
         main{
             /* center the main element */
             margin:auto;
@@ -13,73 +15,71 @@
             /* add width so that margin auto works */
             width: 400px;
             
-           
+            /* temporary, add background color so i can see*/
+            background-color: green;
+
             /* temporary, add height so i can see*/
             height: 500px;
         }
         img{
-            /* add centering to image */
-
-            image-alignment: center;
+            /* temporary, add background color so i can see */
+            
+            background-color: pink;
 
             /* temporary, add height so i can see*/
             height: 50px;
             width: 85px;}
-        h1{
-            /* add text alignment so i can see */
+
+            /* add centering to image */
 
             text-alignment: center;
+
+        h1{
+            /* temporary, add background color so i can see */
+            
+            background-color: blue;
+            /* center the h1 element */
 
             /* temporary, add font size so i can see*/
             font-size: 20px;
         }
         form{
+            /* temporary, add background color so i can see */
             
-
-			/* add a border */
-			border: 2px solid black;
-
-            /* add height to the border */
-
-            border-height: 50px;
+            background-color: yellow;
 
             /* temporary, add height so i can see*/
-            height: 200px;
-			
-        }
+            height: 100px;
 
+            /* add bubble effect */
+            display: block;   
+        }
         input{
            /* I want rounded border */
-           border-radius: 10px;
+           border-radius: 12px;
 
-
-            /* add color to input */ 
+            
             background-color: white;
 
             /* temporary, add height so i can see*/
             height: 30px;
             /* temporary, add width so i can see*/
             width: 300px;
-
-            /* add color to button */
-
-            background-color: green;
         }
-
-        
-
+        label{
+            
+            /* temporary, add alignment so i can see*/
+            text-align: left;
+        }
 
 
         section{
-    
+            /* temporary, add background color so i can see */
+            
+            background-color: orange;
+
             /* temporary, add height so i can see*/
             height: 100px;
-
-			/* add a border */
-			border: 2px solid black;
-
-			/* temporary, add alignment so i can see*/
-			text-align: center;
         }
         footer{
             /* center the main element */
@@ -88,7 +88,8 @@
             /* add width so that margin auto works */
             width: 800px;
             
-            
+            /* temporary, add background color so i can see*/
+            background-color: red;
 
             /* temporary, add height so i can see*/
             height: 30px;
@@ -112,7 +113,7 @@
 
         <a href="https://github.com"><img src="GitHub-Symbol.png" 
             alt="https://github.com/"
-            style="width:85px;height:50px;"></a><br><br>
+            style="width:85px;height:50px;text-align:center;"></a><br><br>
 
         <h1>Sign in to GitHub</h1><br><br>
 
@@ -120,18 +121,18 @@
 
         
         
-        <label for="Uname">Username or email address</label><br><br"><br>
+        <label for="Uname">User name or email address</label><br><br">
             
     </form>
-
         <input type="text" id="fname" name="fname" value=""><br><br>
 
 
-        <label for="Password">Password <a href="#">forgot password?</a></label><br><br></form>
+        <label for="Password">Password &emsp; <a href="#">forgot password?</a></label><br><br></form>
         <input border-radius="10px" type="text" id="lname" name="lname" value=""><br><br>
 
 
-        <input style="background-color: green;" type="button" class="button" value="Sign In">
+
+        <input background-color="green" type="button" class="button" value="Sign In"> 
 
             
         
